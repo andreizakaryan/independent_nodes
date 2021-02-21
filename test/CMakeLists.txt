@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.19)
 
 set(PROJECT_UNIT_TESTS_NAME ${PROJECT_NAME}_unit_tests)
 
+include_directories(${PROJECT_SOURCE_DIR}/include)
 
 find_package(Boost COMPONENTS filesystem system unit_test_framework REQUIRED)
 

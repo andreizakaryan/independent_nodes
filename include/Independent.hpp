@@ -2,6 +2,7 @@
 #define INDEPENDENT_HPP
 
 #include "Node.hpp"
+
 #include <vector>
 #include <unordered_map>
 

@@ -1,4 +1,5 @@
-#include "../include/Independent.hpp"
+#include "Independent.hpp"
+
 #include <vector>
 #include <unordered_map>
 

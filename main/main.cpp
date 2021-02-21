@@ -1,6 +1,6 @@
-#include "../include/Node.hpp"
-#include "../include/Independent.hpp"
-#include "../include/Utils.hpp"
+#include "Node.hpp"
+#include "Independent.hpp"
+#include "Utils.hpp"
 
 #include <iostream>
 #include <vector>
@@ -30,4 +30,5 @@ int main()
         std::cout << std::endl;
     }
     freeDAG(root);
+    return 0;
 }

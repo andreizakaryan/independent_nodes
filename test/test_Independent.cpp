@@ -1,8 +1,8 @@
 #include <boost/test/unit_test.hpp>
 
-#include "../include/Node.hpp"
-#include "../include/Utils.hpp"
-#include "../include/Independent.hpp"
+#include "Node.hpp"
+#include "Utils.hpp"
+#include "Independent.hpp"
 
 BOOST_AUTO_TEST_SUITE(independent_suite)
 

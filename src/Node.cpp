@@ -1,8 +1,7 @@
-#include "../include/Node.hpp"
+#include "Node.hpp"
 
-Node::Node(std::string const &name)
+Node::Node(const std::string &name) : name_(name)
 {
-    name_ = name;
 }
 
 const std::string &Node::getName() const

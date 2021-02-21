@@ -1,7 +1,7 @@
 #include <boost/test/unit_test.hpp>
 
-#include "../include/Node.hpp"
-#include "../include/Utils.hpp"
+#include "Node.hpp"
+#include "Utils.hpp"
 
 BOOST_AUTO_TEST_SUITE(node_suite)
 

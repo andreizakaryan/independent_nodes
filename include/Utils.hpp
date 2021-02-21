@@ -2,6 +2,7 @@
 #define UTILS_HPP
 
 #include "Node.hpp"
+
 #include <unordered_set>
 #include <vector>
 

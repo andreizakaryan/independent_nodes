@@ -1,4 +1,4 @@
-#include "../include/Utils.hpp"
+#include "Utils.hpp"
 
 #include <unordered_set>
 
@@ -33,16 +33,10 @@ Node *generateDAG(unsigned vertexes, std::vector<std::pair<unsigned, unsigned>> 
         return nullptr;
     }
     std::vector<Node *> nodes;
-    for (unsigned i = 0; i < vertexes; i++)
+    nodes.push_back(new Node("ROOT"));
+    for (unsigned i = 1; i < vertexes; i++)
     {
-        if (i == 0)
-        {
-            nodes.push_back(new Node("ROOT"));
-        }
-        else
-        {
-            nodes.push_back(new Node("v" + std::to_string(i)));
-        }
+        nodes.push_back(new Node("v" + std::to_string(i)));
     }
     for (auto &edge : edges)
     {

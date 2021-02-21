@@ -7,7 +7,7 @@
 class Node
 {
 public:
-    Node(std::string const &name);
+    Node(const std::string &name);
     const std::string &getName() const;
     const std::vector<Node *> &getNextNodes() const;
     void addNextNode(Node *node);
